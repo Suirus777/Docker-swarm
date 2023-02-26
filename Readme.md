@@ -32,7 +32,7 @@
 /screenshots/docker-swarm-ya-cloud.JPG  <br>
 /screenshots/sock-shop.JPG               <br><br></b>
  *  Вывод команды docker service ls. <br>
-<b> Ответ: <br> <br>
+<b> Ответ: <br> 
 root@manager-0:/home/ubuntu# docker service ls   <br>
 <code>
 ID         NAME      MODE         REPLICAS   IMAGE                                PORTS <br>
@@ -49,7 +49,7 @@ qz8tqbv4o561   sockshop-swarm_orders-db      replicated   2/2        mongo:3.4  
 zyj0i6dlvj6c   sockshop-swarm_rabbitmq       replicated   2/2        rabbitmq:3.6.8                                <br>
 ln79yalhi76f   sockshop-swarm_shipping       replicated   2/2        weaveworksdemos/shipping:0.4.8                </code><br><br></b>
  *  Вывод команды docker node ls. <br>
-<b> Ответ: <br><br>
+<b> Ответ: <br>
   <code>
 root@manager-0:/home/ubuntu# docker node ls  <br>
 ID                            HOSTNAME    STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION <br>
