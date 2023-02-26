@@ -34,7 +34,7 @@
  *  Вывод команды docker service ls. <br>
 <b> Ответ: <br> <br>
 root@manager-0:/home/ubuntu# docker service ls   <br>
-ID             NAME                          MODE         REPLICAS   IMAGE                                PORTS <br>
+ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNAME                          MODE         REPLICAS   IMAGE                                PORTS <br>
 c04wy18hfqns   sockshop-swarm_carts          replicated   2/2        weaveworksdemos/carts:0.4.8                 <br>
 tvslvhmd7xa6   sockshop-swarm_carts-db       replicated   2/2        mongo:3.4                                   <br>
 ty97h34foijg   sockshop-swarm_catalogue      replicated   2/2        weaveworksdemos/catalogue:0.3.5             <br>
