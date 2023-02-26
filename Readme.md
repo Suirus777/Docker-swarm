@@ -33,7 +33,7 @@
 /screenshots/sock-shop.JPG               <br><br></b>
  *  Вывод команды docker service ls. <br>
 <b> Ответ: <br> <br>
-root@manager-0:/home/ubuntu# docker service ls   <br>
+root@manager-0:/home/ubuntu# docker service ls   <br><code>
 ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNAME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMODE         REPLICAS   IMAGE                                PORTS <br>
 c04wy18hfqns&nbsp&nbspsockshop-swarm_carts          replicated   2/2        weaveworksdemos/carts:0.4.8                 <br>
 tvslvhmd7xa6&nbsp&nbspsockshop-swarm_carts-db       replicated   2/2        mongo:3.4                                   <br>
@@ -47,7 +47,7 @@ qz8tqbv4o561&nbsp&nbspsockshop-swarm_orders-db      replicated   2/2        mong
 2umtxwduu614&nbsp&nbspsockshop-swarm_queue-master   replicated   2/2        weaveworksdemos/queue-master:0.3.1            <br>
 zyj0i6dlvj6c&nbsp&nbspsockshop-swarm_rabbitmq       replicated   2/2        rabbitmq:3.6.8                                <br>
 ln79yalhi76f&nbsp&nbspsockshop-swarm_shipping       replicated   2/2        weaveworksdemos/shipping:0.4.8                <br><br></b>
-
+</code>
  *  Вывод команды docker node ls. <br>
 <b> Ответ: <br><br>
 root@manager-0:/home/ubuntu# docker node ls  <br>
