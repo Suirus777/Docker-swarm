@@ -33,27 +33,28 @@
 /screenshots/sock-shop.JPG               <br><br></b>
  *  Вывод команды docker service ls. <br>
 <b> Ответ: <br> <br>
-root@manager-0:/home/ubuntu# docker service ls   <br><code>
-ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNAME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMODE         REPLICAS   IMAGE                                PORTS <br>
-c04wy18hfqns&nbsp&nbspsockshop-swarm_carts          replicated   2/2        weaveworksdemos/carts:0.4.8                 <br>
-tvslvhmd7xa6&nbsp&nbspsockshop-swarm_carts-db       replicated   2/2        mongo:3.4                                   <br>
-ty97h34foijg&nbsp&nbspsockshop-swarm_catalogue      replicated   2/2        weaveworksdemos/catalogue:0.3.5             <br>
-4c646e6dlji6&nbsp&nbspsockshop-swarm_catalogue-db   replicated   2/2        weaveworksdemos/catalogue-db:0.3.0          <br>
-n9ko5lqiiri5&nbsp&nbspsockshop-swarm_edge-router    replicated   2/2        weaveworksdemos/edge-router:0.1.1    *:80->80/tcp, *:8080->8080/tcp <br>
-o09xqs3vc0cb&nbsp&nbspsockshop-swarm_front-end      replicated   2/2        weaveworksdemos/front-end:0.3.12             <br>
-yle36b0zbzzn&nbsp&nbspsockshop-swarm_orders         replicated   2/2        weaveworksdemos/orders:0.4.7                 <br>
-qz8tqbv4o561&nbsp&nbspsockshop-swarm_orders-db      replicated   2/2        mongo:3.4                                     <br>
-09v9db6l0uq6&nbsp&nbspsockshop-swarm_payment        replicated   2/2        weaveworksdemos/payment:0.4.3                 <br>
-2umtxwduu614&nbsp&nbspsockshop-swarm_queue-master   replicated   2/2        weaveworksdemos/queue-master:0.3.1            <br>
-zyj0i6dlvj6c&nbsp&nbspsockshop-swarm_rabbitmq       replicated   2/2        rabbitmq:3.6.8                                <br>
-ln79yalhi76f&nbsp&nbspsockshop-swarm_shipping       replicated   2/2        weaveworksdemos/shipping:0.4.8                <br><br></b>
-</code>
+root@manager-0:/home/ubuntu# docker service ls   <br>
+<code>
+ID         NAME      MODE         REPLICAS   IMAGE                                PORTS <br>
+c04wy18hfqns   sockshop-swarm_carts          replicated   2/2        weaveworksdemos/carts:0.4.8                 <br>
+tvslvhmd7xa6   sockshop-swarm_carts-db       replicated   2/2        mongo:3.4                                   <br>
+ty97h34foijg   sockshop-swarm_catalogue      replicated   2/2        weaveworksdemos/catalogue:0.3.5             <br>
+4c646e6dlji6   sockshop-swarm_catalogue-db   replicated   2/2        weaveworksdemos/catalogue-db:0.3.0          <br>
+n9ko5lqiiri5   sockshop-swarm_edge-router    replicated   2/2        weaveworksdemos/edge-router:0.1.1    *:80->80/tcp, *:8080->8080/tcp <br>
+o09xqs3vc0cb   sockshop-swarm_front-end      replicated   2/2        weaveworksdemos/front-end:0.3.12             <br>
+yle36b0zbzzn   sockshop-swarm_orders         replicated   2/2        weaveworksdemos/orders:0.4.7                 <br>
+qz8tqbv4o561   sockshop-swarm_orders-db      replicated   2/2        mongo:3.4                                     <br>
+09v9db6l0uq6   sockshop-swarm_payment        replicated   2/2        weaveworksdemos/payment:0.4.3                 <br>
+2umtxwduu614   sockshop-swarm_queue-master   replicated   2/2        weaveworksdemos/queue-master:0.3.1            <br>
+zyj0i6dlvj6c   sockshop-swarm_rabbitmq       replicated   2/2        rabbitmq:3.6.8                                <br>
+ln79yalhi76f   sockshop-swarm_shipping       replicated   2/2        weaveworksdemos/shipping:0.4.8                </code><br><br></b>
  *  Вывод команды docker node ls. <br>
 <b> Ответ: <br><br>
+  <code>
 root@manager-0:/home/ubuntu# docker node ls  <br>
 ID                            HOSTNAME    STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION <br>
 ijmhl6g4eyi35rg6dhji31m9b *   manager-0   Ready     Active         Leader           23.0.1          <br>
 082zphsmb90benlzls8od1mli     worker-0    Ready     Active                          23.0.1          <br>
-xqd5qpknw3arx6k6anlm4mox4     worker-1    Ready     Active                          23.0.1          <br><br></b>
+xqd5qpknw3arx6k6anlm4mox4     worker-1    Ready     Active                          23.0.1          </code><br><br></b>
 
 8. Погасить проект. <br> 
